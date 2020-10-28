@@ -16,7 +16,7 @@
 
 package com.droidlogic.tv.settings;
 
-import android.support.v17.leanback.widget.ObjectAdapter;
+import androidx.leanback.widget.ObjectAdapter;
 
 public interface BrowseInfoFactory {
     ObjectAdapter getRows();

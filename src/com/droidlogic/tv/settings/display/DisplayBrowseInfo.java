@@ -24,8 +24,8 @@ import com.droidlogic.tv.settings.SettingsConstant;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
-import android.support.v17.leanback.widget.ArrayObjectAdapter;
-import android.support.v17.leanback.widget.HeaderItem;
+import androidx.leanback.widget.ArrayObjectAdapter;
+import androidx.leanback.widget.HeaderItem;
 
 /**
  * Gets the list of browse headers and browse items.

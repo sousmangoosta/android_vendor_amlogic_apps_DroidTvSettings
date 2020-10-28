@@ -23,11 +23,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import android.support.annotation.Keep;
-import android.support.v17.preference.LeanbackPreferenceFragment;
-import android.support.v7.preference.CheckBoxPreference;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceScreen;
+import androidx.annotation.Keep;
+import androidx.leanback.preference.LeanbackPreferenceFragment;
+import androidx.preference.CheckBoxPreference;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
 import android.text.TextUtils;
 
 import android.os.Bundle;
@@ -50,7 +50,7 @@ import android.hardware.hdmi.HdmiTvClient;
 import android.hardware.hdmi.HdmiTvClient.SelectCallback;
 import android.os.SystemProperties;
 import com.droidlogic.tv.settings.SettingsConstant;
-import android.support.v7.preference.Preference;
+import androidx.preference.Preference;
 import com.droidlogic.tv.settings.R;
 
 

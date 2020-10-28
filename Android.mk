@@ -29,13 +29,14 @@ LOCAL_JAVA_LIBRARIES := droidlogic droidlogic-tv
 #include frameworks/base/packages/SettingsLib/common.mk
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
-    android-support-v7-recyclerview \
-    android-support-v7-preference \
-    android-support-v7-appcompat \
-    android-support-v14-preference \
-    android-support-v17-preference-leanback \
-    android-support-v17-leanback \
-    android-arch-lifecycle-extensions
+    androidx.recyclerview_recyclerview \
+    androidx.preference_preference \
+    androidx.appcompat_appcompat \
+    androidx.legacy_legacy-preference-v14 \
+    androidx.leanback_leanback-preference \
+    androidx.leanback_leanback \
+    androidx.lifecycle_lifecycle-extensions \
+    androidx.localbroadcastmanager_localbroadcastmanager
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-arch-lifecycle-common-java8

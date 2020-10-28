@@ -27,10 +27,10 @@ import android.os.Handler;
 import android.os.Message;
 import android.os.SystemProperties;
 import android.provider.Settings;
-import android.support.v14.preference.SwitchPreference;
-import android.support.v17.preference.LeanbackPreferenceFragment;
-import android.support.v7.preference.ListPreference;
-import android.support.v7.preference.Preference;
+import androidx.preference.SwitchPreference;
+import androidx.leanback.preference.LeanbackPreferenceFragment;
+import androidx.preference.ListPreference;
+import androidx.preference.Preference;
 import android.text.TextUtils;
 import android.text.format.DateFormat;
 

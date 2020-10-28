@@ -18,9 +18,9 @@ package com.droidlogic.tv.settings.display;
 
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v17.preference.LeanbackPreferenceFragment;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceCategory;
+import androidx.leanback.preference.LeanbackPreferenceFragment;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 
 import android.os.SystemProperties;
 import com.droidlogic.tv.settings.util.DroidUtils;

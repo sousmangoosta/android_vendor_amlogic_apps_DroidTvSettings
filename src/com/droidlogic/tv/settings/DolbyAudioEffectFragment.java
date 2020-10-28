@@ -17,13 +17,13 @@
 package com.droidlogic.tv.settings;
 
 import android.os.Bundle;
-import android.support.v17.preference.LeanbackPreferenceFragment;
-import android.support.v7.preference.ListPreference;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceCategory;
-import android.support.v7.preference.SeekBarPreference;
-import android.support.v14.preference.SwitchPreference;
-import android.support.v7.preference.TwoStatePreference;
+import androidx.leanback.preference.LeanbackPreferenceFragment;
+import androidx.preference.ListPreference;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.SeekBarPreference;
+import androidx.preference.SwitchPreference;
+import androidx.preference.TwoStatePreference;
 import android.util.Log;
 
 import com.droidlogic.tv.settings.tvoption.SoundParameterSettingManager;
